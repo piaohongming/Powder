@@ -1,0 +1,9 @@
+src/dataset/*
+src/baseline_log/*
+src/checkpoint/*
+src/data/*
+src/training_log/*
+src/Picture/*
+src/compare/*
+.git/*
+src/DomainNet.zip
