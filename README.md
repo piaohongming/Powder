@@ -41,7 +41,7 @@ All commands should be run under the `src/` directory. We provide the commands f
         task_list_forward = [{2:[1,2], 5:[0,4], 8:[6,3], 11:[16,7], 14:[10,14,18,21,22]}]
         task_list_backward = [{2:[1,2], 5:[0,4], 8:[6,3], 11:[16,7], 14:[]}]
         ```
-        where `[1,2]` means task 1 and task 2 finished after round 2.
+        where `[1,2]` means task 1 and task 2 finished after round 2. Task id is calculated by `(round // 3) * num_clients + client_id`
     
     2. Set the path of FCL results and single task training results in `pathes` and `pathes_notran`.
     
